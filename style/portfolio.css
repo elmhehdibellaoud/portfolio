@@ -1,0 +1,41 @@
+.all-socials {
+    height: 14vh;
+    padding-top: 10px;
+  }
+  
+  .socials {
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 20px;
+  }
+  
+  .socials img {
+    height: 38px;
+    margin-inline: 8px;
+  }
+  
+  @media screen and (max-width: 767px) {
+  
+    .all-socials {
+      height: auto;
+      background-color: rgb(243, 243, 243);
+      padding-block: 20px;
+    }
+  
+    .socials {
+      height: 50%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .socials img {
+      height: 30px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+  }
